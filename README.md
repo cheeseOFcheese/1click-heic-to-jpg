@@ -1,16 +1,28 @@
 # 1click-heic-to-jpg
 
-Этот проект представляет собой скрипт на языке batch, который облегчает конвертацию изображений в формате HEIF в формат JPEG. Проект вдохновлен и частично основан на [heif-convert](https://github.com/NeverMendel/heif-convert) от NeverMendel. Благодарим за его работу!
+Часто сталкивался с проблемой: нужно сконвертировать кучу айфоновских фоток из формата HEIC в JPG. Есть разные способы, но они меня достали, и я просто написал эту короткую программу.
 
-## Использование
+## Инструкции
 
-1. **Запуск скрипта:**
-   - Скачайте файлы скрипта `0_run_all.bat` и `get-pip.py` в одну папку.
-   - Запустите `0_run_all.bat`.
-   - Следуйте инструкциям для установки необходимых зависимостей и конвертации изображений.
+1. **Подготовка:**
+   - У вас компьютер на Windows.
+   - На всякий случай рекомендую делать копию той папки, в которой вы храните эти файлы, чтобы быть в хорошем настроении.
 
-2. **Папка вывода:**
-   - Скрипт создаст папку "i hate heif" в текущей директории для сохранения конвертированных изображений.
+2. **Запуск скрипта:**
+   - Копируем его в папку, где находятся эти ненавистные файлы с разрешением .HEIC, и запускаем скрипт (файл `heic-to-jpg.bat` скачиваем по ссылке).
+
+3. **Конвертация:**
+   - Запускаем файл `heic-to-jpg.bat`. Он сам создает в этой папке новую директорию и туда копирует файлы, меняя формат с HEIC на JPG.
+
+4. **Ожидание:**
+   - Ждём, пока он установит временные библиотеки и выполнит конвертацию.
+
+5. **Поздравляю!**
+   - Радуемся.
+
+## Лицензия
+
+Этот проект распространяется под лицензией [MIT License](LICENSE).
 
 ## Зависимости
 
@@ -23,24 +35,34 @@
 
 - Большое спасибо NeverMendel за их проект [heif-convert](https://github.com/NeverMendel/heif-convert), который был использован в этом скрипте.
 
-## Лицензия
 
-Этот проект распространяется под лицензией [MIT License](LICENSE).
+---------------------
 
--------------------------------------
+# 1click-heic-to-jpg
 
+I have often encountered the problem of needing to convert a bunch of iPhone photos from HEIC to JPG format. There are different methods, but they bothered me, so I just wrote this short program.
 
-This project is a batch script that simplifies the conversion of HEIF images to JPEG format. The project is inspired by and partially based on [heif-convert](https://github.com/NeverMendel/heif-convert) by NeverMendel. Thanks for their work!
+## Instructions
 
-## Usage
+1. **Preparation:**
+   - You have a Windows computer.
+   - As a precaution, I recommend making a copy of the folder where you store these files to be in a good mood.
 
-1. **Running the script:**
-   - Download the script files `0_run_all.bat` and `get-pip.py` into one folder.
-   - Run `0_run_all.bat`.
-   - Follow the instructions to install the necessary dependencies and convert images.
+2. **Running the script:**
+   - Copy it to the folder where these detested files with the .HEIC extension are located and run the script (download the `heic-to-jpg.bat` file from the link).
 
-2. **Output folder:**
-   - The script will create a folder named "i hate heif" in the current directory to store the converted images.
+3. **Conversion:**
+   - Run the `heic-to-jpg.bat` file. It will create a new directory in this folder and copy files there, changing the format from HEIC to JPG.
+
+4. **Waiting:**
+   - Wait for it to install temporary libraries and perform the conversion.
+
+5. **Congratulations!**
+   - Rejoice.
+
+## License
+
+This project is distributed under the [MIT License](LICENSE).
 
 ## Dependencies
 
@@ -52,7 +74,3 @@ This project is a batch script that simplifies the conversion of HEIF images to 
 ## Acknowledgments
 
 - Special thanks to NeverMendel for their project [heif-convert](https://github.com/NeverMendel/heif-convert), which was used in this script.
-
-## License
-
-This project is distributed under the [MIT License](LICENSE).
