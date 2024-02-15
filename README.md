@@ -2,7 +2,7 @@
 
 Часто сталкивался с проблемой: нужно сконвертировать кучу айфоновских фоток из формата HEIC в JPG. Есть разные способы, но они меня достали, и я просто написал эту короткую программу.
 
-[Latest Release](https://github.com/cheeseOFcheese/1click-heic-to-jpg/releases/tag/1relese)
+[Latest Release](https://github.com/cheeseOFcheese/1click-heic-to-jpg/releases/tag/test)
 
 
 ## Инструкции
