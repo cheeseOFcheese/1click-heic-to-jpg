@@ -1,6 +1,6 @@
 # 1click-heic-to-jpg
 
-нажать чтобы скачать [Скачать heic-to-jpg.bat](heic-to-jpg.bat)
+нажать чтобы скачать [Скачать heic-to-jpg.bat](heic-to-jpg.bat?raw=true&download=true)
 
 
 
