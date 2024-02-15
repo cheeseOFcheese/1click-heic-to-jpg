@@ -5,7 +5,7 @@
 [Latest Release](https://github.com/cheeseOFcheese/1click-heic-to-jpg/releases/tag/test)
 
 
-## Инструкции
+## Инструкция
 
 1. **Подготовка:**
    - У вас компьютер на Windows.
